@@ -1,0 +1,17 @@
+Genomic features of type "ANY" loaded: 9490
+reference chromosomes:
+	NC_000913.3 (total length: 4641652 bp, total length without N's: 4641652 bp, maximal covered length: 4567210 bp)
+
+total genome size: 4641652
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+abyss_ecoli_ass          | 97.774    | 1.003       | 120       | 8948      | 181       | -         | -         |
+spades_ecoli_ass         | 98.345    | 1.000       | 59        | 9159      | 75        | -         | -         |
+spades_hyb_ecoli_ass     | 98.396    | 1.000       | 51        | 9199      | 47        | -         | -         |

@@ -1,0 +1,165 @@
+/home/saurav/miniconda3/envs/bioinfo/bin/quast.py -o 5-qc/ref_quast_Ecoli_ass -t 4 -r 6-ecolref/GCF_000005845.2_ASM584v2_genomic.fna -g 6-ecolref/GCF_000005845.2_ASM584v2_genomic.gff 5-qc/abyss_ecoli_ass.fasta 5-qc/spades_ecoli_ass.fasta 5-qc/spades_hyb_ecoli_ass.fasta
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-6.5.0-1020-oem-x86_64-with-debian-bookworm-sid (linux_64)
+  Python version: 3.6.15
+  CPUs number: 8
+
+Started: 2024-07-28 13:03:48
+
+Logging to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/quast.log
+
+CWD: /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo
+Main parameters: 
+  MODE: default, threads: 4, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Reference:
+  /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/6-ecolref/GCF_000005845.2_ASM584v2_genomic.fna ==> GCF_000005845.2_ASM584v2_genomic
+
+Contigs:
+  Pre-processing...
+  1  5-qc/abyss_ecoli_ass.fasta ==> abyss_ecoli_ass
+  2  5-qc/spades_ecoli_ass.fasta ==> spades_ecoli_ass
+  3  5-qc/spades_hyb_ecoli_ass.fasta ==> spades_hyb_ecoli_ass
+
+2024-07-28 13:03:51
+Running Basic statistics processor...
+  Reference genome:
+    GCF_000005845.2_ASM584v2_genomic.fna, length = 4641652, num fragments = 1, GC % = 50.79
+  Contig files: 
+    1  abyss_ecoli_ass
+    2  spades_ecoli_ass
+    3  spades_hyb_ecoli_ass
+  Calculating N50 and L50...
+    1  abyss_ecoli_ass, N50 = 112479, L50 = 15, auN = 114322.4, Total length = 4555493, GC % = 50.75, # N's per 100 kbp =  234.62
+    2  spades_ecoli_ass, N50 = 178300, L50 = 9, auN = 185100.3, Total length = 4572278, GC % = 50.74, # N's per 100 kbp =  30.62
+    3  spades_hyb_ecoli_ass, N50 = 178278, L50 = 9, auN = 195798.8, Total length = 4575014, GC % = 50.74, # N's per 100 kbp =  24.94
+  Drawing Nx plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/basic_stats/GC_content_plot.pdf
+  Drawing abyss_ecoli_ass GC content plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/basic_stats/abyss_ecoli_ass_GC_content_plot.pdf
+  Drawing spades_ecoli_ass GC content plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/basic_stats/spades_ecoli_ass_GC_content_plot.pdf
+  Drawing spades_hyb_ecoli_ass GC content plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/basic_stats/spades_hyb_ecoli_ass_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 5x)...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/basic_stats/coverage_histogram.pdf
+  Drawing spades_ecoli_ass coverage histogram (bin size: 5x)...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/basic_stats/spades_ecoli_ass_coverage_histogram.pdf
+  Drawing spades_hyb_ecoli_ass coverage histogram (bin size: 6x)...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/basic_stats/spades_hyb_ecoli_ass_coverage_histogram.pdf
+Done.
+
+2024-07-28 13:03:53
+Running Contig analyzer...
+WARNING: Version of installed minimap2 differs from its version in the QUAST package (2.24). Please make sure that you use an actual version of software.
+  1  abyss_ecoli_ass
+  2  spades_ecoli_ass
+  3  spades_hyb_ecoli_ass
+  2  Logging to files /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/contigs_reports/contigs_report_spades_ecoli_ass.stdout and contigs_report_spades_ecoli_ass.stderr...
+  3  Logging to files /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/contigs_reports/contigs_report_spades_hyb_ecoli_ass.stdout and contigs_report_spades_hyb_ecoli_ass.stderr...
+  1  Logging to files /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/contigs_reports/contigs_report_abyss_ecoli_ass.stdout and contigs_report_abyss_ecoli_ass.stderr...
+  2  Aligning contigs to the reference
+  3  Aligning contigs to the reference
+WARNING: Version of installed minimap2 differs from its version in the QUAST package (2.24). Please make sure that you use an actual version of software.
+WARNING: Version of installed minimap2 differs from its version in the QUAST package (2.24). Please make sure that you use an actual version of software.
+  1  Aligning contigs to the reference
+  2  /home/saurav/miniconda3/envs/bioinfo/bin/minimap2 -c -x asm10 -B5 -O4,16 --no-long-join \
+     -r 200 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 \
+     --cs -t 1 5-qc/ref_quast_Ecoli_ass/quast_corrected_input/GCF_000005845.2_ASM584v2_genomic.fna \
+     5-qc/ref_quast_Ecoli_ass/quast_corrected_input/spades_ecoli_ass.fasta > 5-qc/ref_quast_Ecoli_ass/contigs_reports/minimap_output/spades_ecoli_ass.coords_tmp \
+     2>> 5-qc/ref_quast_Ecoli_ass/contigs_reports/contigs_report_spades_ecoli_ass.stderr
+  3  /home/saurav/miniconda3/envs/bioinfo/bin/minimap2 -c -x asm10 -B5 -O4,16 --no-long-join \
+     -r 200 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 \
+     --cs -t 1 5-qc/ref_quast_Ecoli_ass/quast_corrected_input/GCF_000005845.2_ASM584v2_genomic.fna \
+     5-qc/ref_quast_Ecoli_ass/quast_corrected_input/spades_hyb_ecoli_ass.fasta > 5-qc/ref_quast_Ecoli_ass/contigs_reports/minimap_output/spades_hyb_ecoli_ass.coords_tmp \
+     2>> 5-qc/ref_quast_Ecoli_ass/contigs_reports/contigs_report_spades_hyb_ecoli_ass.stderr
+WARNING: Version of installed minimap2 differs from its version in the QUAST package (2.24). Please make sure that you use an actual version of software.
+  1  /home/saurav/miniconda3/envs/bioinfo/bin/minimap2 -c -x asm10 -B5 -O4,16 --no-long-join \
+     -r 200 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 \
+     --cs -t 1 5-qc/ref_quast_Ecoli_ass/quast_corrected_input/GCF_000005845.2_ASM584v2_genomic.fna \
+     5-qc/ref_quast_Ecoli_ass/quast_corrected_input/abyss_ecoli_ass.fasta > 5-qc/ref_quast_Ecoli_ass/contigs_reports/minimap_output/abyss_ecoli_ass.coords_tmp \
+     2>> 5-qc/ref_quast_Ecoli_ass/contigs_reports/contigs_report_abyss_ecoli_ass.stderr
+  3  Analysis is finished.
+
+  2  Analysis is finished.
+
+  1  Analysis is finished.
+
+  Creating total report...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2024-07-28 13:03:56
+Running NA-NGA calculation...
+  1  abyss_ecoli_ass, Largest alignment = 268126, NA50 = 95367, NGA50 = 87887, LA50 = 15, LGA50 = 16
+  2  spades_ecoli_ass, Largest alignment = 414005, NA50 = 175988, NGA50 = 175988, LA50 = 10, LGA50 = 10
+  3  spades_hyb_ecoli_ass, Largest alignment = 433760, NA50 = 178278, NGA50 = 178278, LA50 = 9, LGA50 = 9
+  Drawing cumulative plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/aligned_stats/NGAx_plot.pdf
+Done.
+
+2024-07-28 13:03:56
+Running Genome analyzer...
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  Loaded 9490 genomic features of type "ANY"
+  1  abyss_ecoli_ass
+  2  spades_ecoli_ass
+  3  spades_hyb_ecoli_ass
+  1  Analysis is finished.
+  2  Analysis is finished.
+  3  Analysis is finished.
+  Drawing genomic features cumulative plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/genome_stats/features_cumulative_plot.pdf
+  Drawing genomic features FRCurve plot...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/genome_stats/features_frcurve_plot.pdf
+  Drawing # complete genomic features histogram...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/genome_stats/complete_features_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-07-28 13:03:59
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2024-07-28 13:04:01
+RESULTS:
+  Text versions of total report are saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/report.html
+  PDF version (tables and plots) is saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/report.pdf
+  Icarus (contig browser) is saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/icarus.html
+  Log is saved to /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/quast.log
+
+Finished: 2024-07-28 13:04:01
+Elapsed time: 0:00:13.662500
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

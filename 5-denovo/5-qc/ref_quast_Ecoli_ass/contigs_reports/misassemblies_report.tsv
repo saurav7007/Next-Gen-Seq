@@ -1,0 +1,21 @@
+Assembly	abyss_ecoli_ass	spades_ecoli_ass	spades_hyb_ecoli_ass
+# misassemblies	5	1	1
+  # contig misassemblies	1	1	1
+    # c. relocations	1	1	1
+    # c. translocations	0	0	0
+    # c. inversions	0	0	0
+  # scaffold misassemblies	4	0	0
+    # s. relocations	4	0	0
+    # s. translocations	0	0	0
+    # s. inversions	0	0	0
+# misassembled contigs	4	1	1
+Misassembled contigs length	427622	297149	297513
+# local misassemblies	4	2	2
+# scaffold gap ext. mis.	0	0	0
+# scaffold gap loc. mis.	29	3	2
+# unaligned mis. contigs	0	0	0
+# mismatches	177	15	21
+# indels	299	13	22
+    # indels (<= 5 bp)	167	2	5
+    # indels (> 5 bp)	132	11	17
+Indels length	4579	1024	1628

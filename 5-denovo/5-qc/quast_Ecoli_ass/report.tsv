@@ -1,0 +1,23 @@
+Assembly	abyss_ecoli_ass	spades_ecoli_ass	spades_hyb_ecoli_ass
+# contigs (>= 0 bp)	836	553	267
+# contigs (>= 1000 bp)	93	61	53
+# contigs (>= 5000 bp)	73	48	42
+# contigs (>= 10000 bp)	66	43	39
+# contigs (>= 25000 bp)	53	39	39
+# contigs (>= 50000 bp)	31	25	25
+Total length (>= 0 bp)	4609549	4686608	4622092
+Total length (>= 1000 bp)	4545358	4566892	4571654
+Total length (>= 5000 bp)	4497901	4539340	4545628
+Total length (>= 10000 bp)	4445550	4504123	4524192
+Total length (>= 25000 bp)	4243269	4440561	4524192
+Total length (>= 50000 bp)	3468085	3914996	3993598
+# contigs	107	69	58
+Largest contig	268126	414005	433760
+Total length	4555493	4572278	4575014
+GC (%)	50.75	50.74	50.74
+N50	112479	178300	178278
+N90	29440	40969	41649
+auN	114322.4	185100.3	195798.8
+L50	15	9	9
+L90	48	30	28
+# N's per 100 kbp	234.62	30.62	24.94

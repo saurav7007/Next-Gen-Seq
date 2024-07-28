@@ -1,0 +1,58 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     abyss_ecoli_ass  spades_ecoli_ass  spades_hyb_ecoli_ass
+# contigs (>= 0 bp)          836              553               267                 
+# contigs (>= 1000 bp)       93               61                53                  
+# contigs (>= 5000 bp)       73               48                42                  
+# contigs (>= 10000 bp)      66               43                39                  
+# contigs (>= 25000 bp)      53               39                39                  
+# contigs (>= 50000 bp)      31               25                25                  
+Total length (>= 0 bp)       4609549          4686608           4622092             
+Total length (>= 1000 bp)    4545358          4566892           4571654             
+Total length (>= 5000 bp)    4497901          4539340           4545628             
+Total length (>= 10000 bp)   4445550          4504123           4524192             
+Total length (>= 25000 bp)   4243269          4440561           4524192             
+Total length (>= 50000 bp)   3468085          3914996           3993598             
+# contigs                    107              69                58                  
+Largest contig               268126           414005            433760              
+Total length                 4555493          4572278           4575014             
+Reference length             4641652          4641652           4641652             
+GC (%)                       50.75            50.74             50.74               
+Reference GC (%)             50.79            50.79             50.79               
+N50                          112479           178300            178278              
+NG50                         112479           178300            178278              
+N90                          29440            40969             41649               
+NG90                         26282            40204             40911               
+auN                          114322.4         185100.3          195798.8            
+auNG                         112200.4         182333.8          192987.8            
+L50                          15               9                 9                   
+LG50                         15               9                 9                   
+L90                          48               30                28                  
+LG90                         51               32                30                  
+# misassemblies              5                1                 1                   
+# misassembled contigs       4                1                 1                   
+Misassembled contigs length  427622           297149            297513              
+# local misassemblies        4                2                 2                   
+# scaffold gap ext. mis.     0                0                 0                   
+# scaffold gap loc. mis.     29               3                 2                   
+# unaligned mis. contigs     0                0                 0                   
+# unaligned contigs          0 + 0 part       1 + 0 part        1 + 0 part          
+Unaligned length             0                5463              5463                
+Genome fraction (%)          97.774           98.345            98.396              
+Duplication ratio            1.003            1.000             1.000               
+# N's per 100 kbp            234.62           30.62             24.94               
+# mismatches per 100 kbp     3.89             0.33              0.46                
+# indels per 100 kbp         6.57             0.28              0.48                
+# genomic features           8948 + 181 part  9159 + 75 part    9199 + 47 part      
+Largest alignment            268126           414005            433760              
+Total aligned length         4551342          4566381           4569357             
+NA50                         95367            175988            178278              
+NGA50                        87887            175988            178278              
+NA90                         28756            40969             41649               
+NGA90                        26089            40204             40911               
+auNA                         109790.0         176640.7          187349.5            
+auNGA                        107752.0         174000.6          184659.8            
+LA50                         15               10                9                   
+LGA50                        16               10                9                   
+LA90                         51               31                29                  
+LGA90                        54               33                31                  

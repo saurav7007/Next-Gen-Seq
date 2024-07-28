@@ -1,0 +1,4 @@
+Assembly	# misassemblies	  # contig misassemblies	    # c. relocations	    # c. translocations	    # c. inversions	  # scaffold misassemblies	    # s. relocations	    # s. translocations	    # s. inversions	# misassembled contigs	Misassembled contigs length	# local misassemblies	# scaffold gap ext. mis.	# scaffold gap loc. mis.	# unaligned mis. contigs	# mismatches	# indels	    # indels (<= 5 bp)	    # indels (> 5 bp)	Indels length
+abyss_ecoli_ass	5	1	1	0	0	4	4	0	0	4	427622	4	0	29	0	177	299	167	132	4579
+spades_ecoli_ass	1	1	1	0	0	0	0	0	0	1	297149	2	0	3	0	15	13	2	11	1024
+spades_hyb_ecoli_ass	1	1	1	0	0	0	0	0	0	1	297513	2	0	2	0	21	22	5	17	1628

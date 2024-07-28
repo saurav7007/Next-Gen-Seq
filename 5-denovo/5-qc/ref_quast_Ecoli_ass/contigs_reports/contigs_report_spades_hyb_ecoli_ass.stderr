@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.090*1.02] collected minimizers
+[M::mm_idx_gen::0.115*1.01] sorted minimizers
+[M::main::0.115*1.01] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.120*1.01] mid_occ = 200
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.125*1.01] distinct minimizers: 454545 (99.24% are singletons); average occurrences: 1.021; average spacing: 9.997; total length: 4641652
+[M::worker_pipeline::1.133*1.00] mapped 58 sequences
+[M::main] Version: 2.26-r1175
+[M::main] CMD: /home/saurav/miniconda3/envs/bioinfo/bin/minimap2 -c -x asm10 -B5 -O4,16 --no-long-join -r 200 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 1 /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/quast_corrected_input/GCF_000005845.2_ASM584v2_genomic.fna /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/5-qc/ref_quast_Ecoli_ass/quast_corrected_input/spades_hyb_ecoli_ass.fasta
+[M::main] Real time: 1.137 sec; CPU: 1.138 sec; Peak RSS: 0.070 GB
