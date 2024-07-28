@@ -1,0 +1,16 @@
+#                                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                      accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                              ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_10_length_175988_cov_359.617568:23474-24337|+ -            288 1701531at2           -            164   3.2e-51  171.7  13.8   1   3   5.1e-21   2.4e-17   61.6   5.0     2    54     5    57     4    59 0.97 NODE_10_length_175988_cov_359.617568_23 # 23474 # 24337 # 1 # ID=10_23;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.535
+NODE_10_length_175988_cov_359.617568:23474-24337|+ -            288 1701531at2           -            164   3.2e-51  171.7  13.8   2   3   7.5e-08   0.00035   18.8   0.0    54    76    78   100    58   107 0.83 NODE_10_length_175988_cov_359.617568_23 # 23474 # 24337 # 1 # ID=10_23;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.535
+NODE_10_length_175988_cov_359.617568:23474-24337|+ -            288 1701531at2           -            164   3.2e-51  171.7  13.8   3   3   1.3e-31   5.8e-28   96.1   0.5    95   164   215   284   212   284 0.98 NODE_10_length_175988_cov_359.617568_23 # 23474 # 24337 # 1 # ID=10_23;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.535
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/1701531at2.hmm
+# Target file:     5-qc/BUSCO/spades_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout 5-qc/BUSCO/spades_ecoli_ass.out/run_bacteria_odb10/hmmer_output/1701531at2.out --cpu 1 /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/1701531at2.hmm 5-qc/BUSCO/spades_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo
+# Date:            Sun Jul 28 18:58:46 2024
+# [ok]

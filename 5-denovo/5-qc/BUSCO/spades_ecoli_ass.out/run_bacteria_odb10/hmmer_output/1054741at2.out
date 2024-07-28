@@ -1,0 +1,21 @@
+#                                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                       accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                               ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_2_length_297149_cov_360.536388:200959-202065|+ -            369 1054741at2           -            333  1.3e-138  459.6   0.0   1   1  1.9e-141  1.4e-138  459.4   0.0     3   331     5   363     3   365 0.94 NODE_2_length_297149_cov_360.536388_203 # 200959 # 202065 # 1 # ID=2_203;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.537
+NODE_7_length_205025_cov_372.185906:93934-95511|+   -            526 1054741at2           -            333   1.3e-06   25.7   0.1   1   2   3.6e-09   2.7e-06   24.6   0.1     4    37   228   262   226   278 0.87 NODE_7_length_205025_cov_372.185906_81 # 93934 # 95511 # 1 # ID=7_81;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.541
+NODE_7_length_205025_cov_372.185906:93934-95511|+   -            526 1054741at2           -            333   1.3e-06   25.7   0.1   2   2       1.5   1.2e+03   -3.8   0.0   158   174   374   390   370   392 0.82 NODE_7_length_205025_cov_372.185906_81 # 93934 # 95511 # 1 # ID=7_81;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.541
+NODE_8_length_203054_cov_373.375525:191844-193142|+ -            433 1054741at2           -            333     8e-05   19.8   0.0   1   1   1.5e-07   0.00011   19.3   0.0     4    68    13    77    10    85 0.90 NODE_8_length_203054_cov_373.375525_162 # 191844 # 193142 # 1 # ID=8_162;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.580
+NODE_13_length_133063_cov_365.660310:82953-84401|-  -            483 1054741at2           -            333    0.0022   15.0   0.1   1   2   1.6e-05     0.013   12.6   0.0     4    39   178   213   176   260 0.85 NODE_13_length_133063_cov_365.660310_74 # 82953 # 84401 # -1 # ID=13_74;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.522
+NODE_13_length_133063_cov_365.660310:82953-84401|-  -            483 1054741at2           -            333    0.0022   15.0   0.1   2   2      0.21   1.6e+02   -0.9   0.0    30    66   247   283   232   287 0.86 NODE_13_length_133063_cov_365.660310_74 # 82953 # 84401 # -1 # ID=13_74;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.522
+NODE_13_length_133063_cov_365.660310:60403-61098|+  -            232 1054741at2           -            333    0.0045   14.0   0.1   1   1   8.2e-06    0.0063   13.6   0.1     4    65     2    56     1    71 0.80 NODE_13_length_133063_cov_365.660310_53 # 60403 # 61098 # 1 # ID=13_53;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.517
+NODE_24_length_56917_cov_368.908973:19037-20011|-   -            325 1054741at2           -            333      0.02   11.9   0.2   1   1   3.8e-05     0.029   11.4   0.2     5    36   150   180   146   199 0.81 NODE_24_length_56917_cov_368.908973_20 # 19037 # 20011 # -1 # ID=24_20;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.553
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/1054741at2.hmm
+# Target file:     5-qc/BUSCO/spades_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout 5-qc/BUSCO/spades_ecoli_ass.out/run_bacteria_odb10/hmmer_output/1054741at2.out --cpu 1 /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/1054741at2.hmm 5-qc/BUSCO/spades_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo
+# Date:            Sun Jul 28 18:58:45 2024
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_8_length_203054_cov_373.375525:75515-76597|+ -            361 1151822at2           -            254   7.6e-85  282.3  27.0   1   3   1.3e-23   2.9e-20   70.7   0.9     5   104    29   149    25   154 0.84 NODE_8_length_203054_cov_373.375525_63 # 75515 # 76597 # 1 # ID=8_63;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.534
+NODE_8_length_203054_cov_373.375525:75515-76597|+ -            361 1151822at2           -            254   7.6e-85  282.3  27.0   2   3   5.5e-16   1.3e-12   45.7   4.7    95   139   172   216   168   225 0.93 NODE_8_length_203054_cov_373.375525_63 # 75515 # 76597 # 1 # ID=8_63;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.534
+NODE_8_length_203054_cov_373.375525:75515-76597|+ -            361 1151822at2           -            254   7.6e-85  282.3  27.0   3   3   5.1e-56   1.2e-52  176.8   6.7   137   254   235   357   223   357 0.93 NODE_8_length_203054_cov_373.375525_63 # 75515 # 76597 # 1 # ID=8_63;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.534
+NODE_18_length_88469_cov_374.126912:21044-22147|+ -            368 1151822at2           -            254   3.5e-18   63.9  21.6   1   2   3.5e-05      0.08   10.3   3.7    14   105    18   117     5   125 0.61 NODE_18_length_88469_cov_374.126912_21 # 21044 # 22147 # 1 # ID=18_21;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.495
+NODE_18_length_88469_cov_374.126912:21044-22147|+ -            368 1151822at2           -            254   3.5e-18   63.9  21.6   2   2   3.7e-20   8.6e-17   59.3  10.2    91   250   129   306   116   312 0.80 NODE_18_length_88469_cov_374.126912_21 # 21044 # 22147 # 1 # ID=18_21;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.495
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/1151822at2.hmm
+# Target file:     5-qc/BUSCO/spades_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout 5-qc/BUSCO/spades_ecoli_ass.out/run_bacteria_odb10/hmmer_output/1151822at2.out --cpu 1 /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/1151822at2.hmm 5-qc/BUSCO/spades_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo
+# Date:            Sun Jul 28 18:58:45 2024
+# [ok]

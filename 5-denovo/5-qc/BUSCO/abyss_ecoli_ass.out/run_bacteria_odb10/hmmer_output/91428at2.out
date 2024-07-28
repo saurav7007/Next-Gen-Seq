@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+3328:855-3485|-      -            877 91428at2             -            555  9.3e-178  590.0  34.4   1   5  6.6e-128    3e-124  413.3   2.8     2   332     4   443     3   455 0.80 3328_2 # 855 # 3485 # -1 # ID=781_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.536
+3328:855-3485|-      -            877 91428at2             -            555  9.3e-178  590.0  34.4   2   5   8.4e-10   3.8e-06   23.5   0.1   336   363   491   518   482   561 0.81 3328_2 # 855 # 3485 # -1 # ID=781_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.536
+3328:855-3485|-      -            877 91428at2             -            555  9.3e-178  590.0  34.4   3   5   7.8e-49   3.5e-45  152.3   7.4   361   518   563   740   552   772 0.78 3328_2 # 855 # 3485 # -1 # ID=781_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.536
+3328:855-3485|-      -            877 91428at2             -            555  9.3e-178  590.0  34.4   4   5    0.0034        16    1.7   0.3   477   519   728   770   724   799 0.83 3328_2 # 855 # 3485 # -1 # ID=781_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.536
+3328:855-3485|-      -            877 91428at2             -            555  9.3e-178  590.0  34.4   5   5   0.00018       0.8    5.9   4.3   538   555   839   856   769   856 0.77 3328_2 # 855 # 3485 # -1 # ID=781_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.536
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/91428at2.hmm
+# Target file:     5-qc/BUSCO/abyss_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout 5-qc/BUSCO/abyss_ecoli_ass.out/run_bacteria_odb10/hmmer_output/91428at2.out --cpu 1 /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/91428at2.hmm 5-qc/BUSCO/abyss_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo
+# Date:            Sun Jul 28 18:56:47 2024
+# [ok]

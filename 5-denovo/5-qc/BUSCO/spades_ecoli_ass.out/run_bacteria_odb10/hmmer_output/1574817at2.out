@@ -1,0 +1,15 @@
+#                                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                      accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                              ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_13_length_133063_cov_365.660310:90394-90813|- -            140 1574817at2           -            150     8e-41  137.7   0.1   1   1     4e-44   9.2e-41  137.5   0.1     2   145     4   138     3   139 0.91 NODE_13_length_133063_cov_365.660310_81 # 90394 # 90813 # -1 # ID=13_81;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.540
+NODE_29_length_41409_cov_376.841382:6376-7665|+    -            430 1574817at2           -            150   2.4e-09   35.6   0.0   1   1   1.7e-12     4e-09   34.8   0.0     8   143     8   131     1   136 0.77 NODE_29_length_41409_cov_376.841382_10 # 6376 # 7665 # 1 # ID=29_10;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.497
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/1574817at2.hmm
+# Target file:     5-qc/BUSCO/spades_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout 5-qc/BUSCO/spades_ecoli_ass.out/run_bacteria_odb10/hmmer_output/1574817at2.out --cpu 1 /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/1574817at2.hmm 5-qc/BUSCO/spades_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo
+# Date:            Sun Jul 28 18:58:46 2024
+# [ok]

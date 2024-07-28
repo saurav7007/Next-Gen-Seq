@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+3390:62425-65022|-   -            866 223233at2            -            494  2.2e-155  516.2  11.6   1   3     2e-77   4.5e-74  248.1   0.8     1   193     3   246     3   257 0.87 3390_61 # 62425 # 65022 # -1 # ID=818_61;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.518
+3390:62425-65022|-   -            866 223233at2            -            494  2.2e-155  516.2  11.6   2   3   6.8e-83   1.5e-79  266.1   2.8   159   418   245   567   239   649 0.77 3390_61 # 62425 # 65022 # -1 # ID=818_61;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.518
+3390:62425-65022|-   -            866 223233at2            -            494  2.2e-155  516.2  11.6   3   3    0.0055        12    2.5   0.0   402   444   693   733   638   768 0.62 3390_61 # 62425 # 65022 # -1 # ID=818_61;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.518
+3376:122824-124785|+ -            654 223233at2            -            494   1.4e-41  140.9   0.0   1   3     7e-20   1.6e-16   58.2   0.0    39   180    76   236    35   251 0.77 3376_124 # 122824 # 124785 # 1 # ID=804_124;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.551
+3376:122824-124785|+ -            654 223233at2            -            494   1.4e-41  140.9   0.0   2   3   4.9e-17   1.1e-13   48.9   0.0   174   245   268   342   261   355 0.88 3376_124 # 122824 # 124785 # 1 # ID=804_124;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.551
+3376:122824-124785|+ -            654 223233at2            -            494   1.4e-41  140.9   0.0   3   3   7.3e-10   1.6e-06   25.2   0.0   253   411   375   589   365   613 0.69 3376_124 # 122824 # 124785 # 1 # ID=804_124;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.551
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/223233at2.hmm
+# Target file:     5-qc/BUSCO/abyss_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout 5-qc/BUSCO/abyss_ecoli_ass.out/run_bacteria_odb10/hmmer_output/223233at2.out --cpu 1 /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/223233at2.hmm 5-qc/BUSCO/abyss_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo
+# Date:            Sun Jul 28 18:56:46 2024
+# [ok]

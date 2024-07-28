@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+3391:26440-27372|+   -            311 1844275at2           -            194   1.4e-41  140.2   3.6   1   2   1.5e-33   1.4e-30  104.3   0.3    10   126    42   181    36   198 0.83 3391_25 # 26440 # 27372 # 1 # ID=819_25;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.537
+3391:26440-27372|+   -            311 1844275at2           -            194   1.4e-41  140.2   3.6   2   2   1.8e-10   1.7e-07   29.0   0.2   132   194   219   304   207   304 0.73 3391_25 # 26440 # 27372 # 1 # ID=819_25;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.537
+3391:20524-21528|+   -            335 1844275at2           -            194   2.1e-10   38.5   0.2   1   2   9.6e-12   8.7e-09   33.2   0.0     8    99    43   147    40   150 0.71 3391_19 # 20524 # 21528 # 1 # ID=819_19;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.521
+3391:20524-21528|+   -            335 1844275at2           -            194   2.1e-10   38.5   0.2   2   2     0.065        59    1.1   0.1   162   192   298   330   288   332 0.79 3391_19 # 20524 # 21528 # 1 # ID=819_19;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.521
+3286:9201-10049|-    -            283 1844275at2           -            194   4.7e-09   34.1   1.0   1   2     2e-10   1.8e-07   28.9   0.1    20    99     3    95     2    98 0.71 3286_9 # 9201 # 10049 # -1 # ID=771_9;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.615
+3286:9201-10049|-    -            283 1844275at2           -            194   4.7e-09   34.1   1.0   2   2     0.037        33    1.9   0.1   162   193   246   279   235   280 0.80 3286_9 # 9201 # 10049 # -1 # ID=771_9;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.615
+3388:122266-123453|- -            396 1844275at2           -            194     4e-08   31.0   0.1   1   3   6.8e-09   6.2e-06   23.9   0.0    14    71    63   122    50   131 0.79 3388_108 # 122266 # 123453 # -1 # ID=816_108;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.501
+3388:122266-123453|- -            396 1844275at2           -            194     4e-08   31.0   0.1   2   3     0.016        15    3.1   0.0    85    99   163   177   150   180 0.81 3388_108 # 122266 # 123453 # -1 # ID=816_108;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.501
+3388:122266-123453|- -            396 1844275at2           -            194     4e-08   31.0   0.1   3   3      0.29   2.6e+02   -1.0   0.0   145   167   313   336   309   348 0.77 3388_108 # 122266 # 123453 # -1 # ID=816_108;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.501
+3293:26942-27307|-   -            122 1844275at2           -            194   0.00075   17.1   0.3   1   1   1.1e-06     0.001   16.7   0.3   131   188    14    72     6    76 0.86 3293_23 # 26942 # 27307 # -1 # ID=773_23;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.462
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/1844275at2.hmm
+# Target file:     5-qc/BUSCO/abyss_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout 5-qc/BUSCO/abyss_ecoli_ass.out/run_bacteria_odb10/hmmer_output/1844275at2.out --cpu 1 /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo/busco_downloads/lineages/bacteria_odb10/hmms/1844275at2.hmm 5-qc/BUSCO/abyss_ecoli_ass.out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /media/saurav/DATA/ubuntu/Learning/NGS/5-denovo
+# Date:            Sun Jul 28 18:56:45 2024
+# [ok]
